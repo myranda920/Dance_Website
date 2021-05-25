@@ -1,5 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 class App extends Component {
   render() {
@@ -8,8 +12,8 @@ class App extends Component {
       <body data-spy="scroll" data-target=".scrollspy" data-offset="85">
     
     <div id="preloader">
-        <div classNameName="text-center w-100">
-            <div classNameName="loader"></div>
+        <div className="text-center w-100">
+            <div className="loader"></div>
         </div>
     </div>
     
@@ -19,7 +23,7 @@ class App extends Component {
         <div className="container">
                 
                 <div className="site-logo">
-                    <a href="#" classNameName="hoveroff" title="">
+                    <a href="#" className="hoveroff" title="">
                         
                         MP<span>choreography</span>
                     </a>
@@ -826,6 +830,6 @@ class App extends Component {
       
     </div>
   );
-}
+};
 
-export default App; 
+export default App;
