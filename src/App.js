@@ -1,8 +1,7 @@
 
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 class App extends Component {
@@ -830,6 +829,7 @@ class App extends Component {
       
     </div>
   );
-};
+}
+}
 
 export default App;
